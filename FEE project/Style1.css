@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cont {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont form {
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    background: white;
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+    opacity: 50%;
+}
+
+.cont form h1 {
+    color: black;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+
+}
+
+.cont form input {
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid
+}
+
+.cont form input::placeholder {
+    color: black;
+
+}
+
+.cont form #lname,
+.cont form #mobile {
+    margin-left: 20px;
+}
+
+.cont form h4 {
+    color:
+        font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.cont form textarea {
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar {
+    width: 1em;
+    height: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color:
+}
+
+.cont form #button {
+    text-align: center;
+    border: none;
+    background: white;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    width: 100px;
+    padding: 0;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+#button:hover {
+    transform: scale(1.2);
+    transition: all ;
+}
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    opacity: 50%;
+}
